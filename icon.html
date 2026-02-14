@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Icon Generator</title>
+    <style>
+        body { background: #0a0f1e; display: flex; flex-direction: column; align-items: center; font-family: Arial; }
+        .icon-container { margin: 20px; }
+        .icon {
+            width: 512px;
+            height: 512px;
+            background: #0a0f1e;
+            border-radius: 100px;
+            position: relative;
+            box-shadow: 0 0 30px gold;
+        }
+        .circle-1 {
+            position: absolute;
+            width: 440px;
+            height: 440px;
+            border: 15px dashed #fbbf24;
+            border-radius: 50%;
+            top: 21px;
+            left: 21px;
+        }
+        .circle-2 {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            border: 8px solid #fbbf24;
+            border-radius: 50%;
+            top: 80px;
+            left: 80px;
+            opacity: 0.3;
+        }
+        .circle-3 {
+            position: absolute;
+            width: 70px;
+            height: 70px;
+            border: 8px solid #fbbf24;
+            border-radius: 50%;
+            bottom: 80px;
+            right: 80px;
+            opacity: 0.3;
+        }
+        .circle-4 {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            border: 6px solid #fbbf24;
+            border-radius: 50%;
+            top: 150px;
+            right: 100px;
+            opacity: 0.3;
+        }
+        .text-merkeb {
+            position: absolute;
+            top: 160px;
+            width: 100%;
+            text-align: center;
+            color: #fbbf24;
+            font-size: 80px;
+            font-weight: bold;
+            text-shadow: 3px 3px 0 #b45309, 0 0 20px gold;
+            letter-spacing: 5px;
+        }
+        .text-bingo {
+            position: absolute;
+            top: 280px;
+            width: 100%;
+            text-align: center;
+            color: #fbbf24;
+            font-size: 100px;
+            font-weight: bold;
+            text-shadow: 4px 4px 0 #b45309, 0 0 20px gold;
+            letter-spacing: 5px;
+        }
+        .small-dot {
+            width: 20px;
+            height: 20px;
+            background: #fbbf24;
+            border-radius: 50%;
+            position: absolute;
+            bottom: 100px;
+            left: 220px;
+            opacity: 0.5;
+        }
+        .instructions {
+            color: white;
+            max-width: 600px;
+            margin: 20px;
+            padding: 20px;
+            background: #1e293b;
+            border-radius: 15px;
+            border: 3px solid gold;
+        }
+    </style>
+</head>
+<body>
+    <div class="instructions">
+        <h2 style="color: gold;">Icon Preview (512x512)</h2>
+        <p>1. Take a screenshot of this preview</p>
+        <p>2. Crop to 512x512 pixels</p>
+        <p>3. Save as icon-512.png in /icons folder</p>
+        <p>4. Resize to create other sizes:</p>
+        <ul>
+            <li>icon-192.png (192x192)</li>
+            <li>icon-144.png (144x144)</li>
+            <li>icon-128.png (128x128)</li>
+            <li>icon-96.png (96x96)</li>
+            <li>icon-72.png (72x72)</li>
+        </ul>
+    </div>
+    
+    <div class="icon-container">
+        <div class="icon">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div class="circle-3"></div>
+            <div class="circle-4"></div>
+            <div class="text-merkeb">MERKEB</div>
+            <div class="text-bingo">BINGO</div>
+            <div class="small-dot"></div>
+        </div>
+    </div>
+</body>
+</html>

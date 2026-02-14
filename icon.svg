@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark background -->
+  <rect width="512" height="512" fill="#0a0f1e" rx="100" ry="100"/>
+  
+  <!-- Gold circular border / bingo ball pattern -->
+  <circle cx="256" cy="256" r="220" fill="none" stroke="#fbbf24" stroke-width="15" stroke-dasharray="30 15"/>
+  
+  <!-- Multiple gold circles for bingo ball effect -->
+  <circle cx="140" cy="140" r="25" fill="none" stroke="#fbbf24" stroke-width="8" opacity="0.3"/>
+  <circle cx="372" cy="372" r="35" fill="none" stroke="#fbbf24" stroke-width="8" opacity="0.3"/>
+  <circle cx="380" cy="120" r="20" fill="none" stroke="#fbbf24" stroke-width="6" opacity="0.3"/>
+  <circle cx="110" cy="360" r="30" fill="none" stroke="#fbbf24" stroke-width="7" opacity="0.3"/>
+  
+  <!-- Main text: MERKEB (upper part) -->
+  <text x="256" y="210" font-family="Arial, Helvetica, sans-serif" font-size="80" 
+        font-weight="bold" text-anchor="middle" fill="#fbbf24" 
+        stroke="#b45309" stroke-width="3">MERKEB</text>
+  
+  <!-- Main text: BINGO (lower part) -->
+  <text x="256" y="340" font-family="Arial, Helvetica, sans-serif" font-size="100" 
+        font-weight="bold" text-anchor="middle" fill="#fbbf24" 
+        stroke="#b45309" stroke-width="4">BINGO</text>
+  
+  <!-- Small decorative elements -->
+  <circle cx="256" cy="420" r="10" fill="#fbbf24" opacity="0.5"/>
+  <circle cx="256" cy="100" r="10" fill="#fbbf24" opacity="0.5"/>
+</svg>
